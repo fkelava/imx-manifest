@@ -13,6 +13,7 @@
   <remote fetch="https://git.openembedded.org"  name="python2"/>
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://source.codeaurora.org/external/imxsupport" name="imx-support"/>
+  <remote fetch="https://github.com/fkelava" name="peppy-gh"/>
 
   <project remote="yocto" name="poky" path="sources/poky" revision="4d7162798ec19c726877e85509e4c7a99eb6576d" upstream="honister"/>
 
@@ -33,6 +34,7 @@
   <project remote="python2" name="meta-python2" path="sources/meta-python2" revision="5243d509aebff378c1ae9d3dff6a29cfdc0dee1f" upstream="honister"/>
   <project remote="Timesys" name="meta-timesys" path="sources/meta-timesys" revision="93bf122d77e77aac1a917865538df84f148a8fcc" upstream="gatesgarth"/>
   <project remote="yocto" name="meta-virtualization" path="sources/meta-virtualization" revision="ed52ba982179087ecc84f7dc3b0a16cfe25f2f8e" upstream="honister"/>
+  <project remote="peppy-gh" name="meta-peppy" path="sources/meta-peppy" revision="honister"/>
 
   <project remote="CAF" name="meta-imx" path="sources/meta-imx" revision="refs/tags/rel_imx_5.15.5_1.0.1" upstream="honister-5.15.5-1.0.0">
      <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
